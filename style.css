@@ -58,7 +58,7 @@ body {
 .amount {
   width: 20%;
   text-align: center;
-  font-size: 25px;
+  font-size: 120%;
   color: rgb(70, 70, 70);
   padding: 2%;
   margin: 2%;
@@ -113,7 +113,18 @@ body {
   margin: 5% 20% 5% 20%;
   border-radius: 20px;
 }
+.bonus-content p {
+  font-size: 25px;
+  color: rgb(70, 70, 70);
+}
+#sub-flex {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 #input-email {
+  height: 37px;
+  width: 100%;
   border: none;
   font-size: 20px;
   padding: 2% 8% 2% 2%;
@@ -128,4 +139,25 @@ body {
   border-radius: 0px 10px 10px 0px;
   color: whitesmoke;
   cursor: pointer;
+}
+#bonus-flex {
+  display: flex;
+  margin-top: 60px;
+}
+.bonus-content {
+  width: 25%;
+  margin: 1%;
+  padding: 1%;
+  box-shadow: 2px 2px 10px rgb(208, 208, 208);
+  text-align: center;
+  color: rgb(70, 70, 70);
+  border-radius: 10px;
+}
+.bonus-content img {
+  width: 100%;
+  border-radius: 10px;
+}
+.bonus-content p {
+  font-size: 25px;
+  color: rgb(70, 70, 70);
 }
