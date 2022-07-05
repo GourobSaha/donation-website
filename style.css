@@ -2,3 +2,39 @@ body {
   margin: 0;
   font-family: "Kantumruy Pro", sans-serif;
 }
+#top-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.996)),
+    url(images/donation13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+#top-text {
+  margin: 0;
+  text-align: center;
+  padding: 10%;
+  color: whitesmoke;
+}
+#top-text h1 {
+  font-size: 90px;
+}
+#top-text p {
+  font-size: 22px;
+}
+.btn-style {
+  width: 170px;
+  height: 50px;
+  left: 100px;
+  top: 647px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(rgb(215, 99, 79), rgb(255, 23, 62));
+  border: none;
+  border-radius: 100px;
+}
+.btn-style:hover {
+  transition: 0.4s;
+  box-shadow: 5px 5px 10px rgba(113, 48, 31, 0.5);
+  cursor: pointer;
+}
